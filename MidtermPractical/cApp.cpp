@@ -14,6 +14,7 @@ cApp::~cApp()
 
 bool cApp::OnInit()
 {
+	srand(time(0));
 	m_frame1 = new cMain();
 	m_frame1->Show();
 
